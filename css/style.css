@@ -186,7 +186,6 @@ body {
     text-rendering: optimizeLegibility;
     color: #444;
     background-color: #ccc;
-    background-image: linear-gradient( 135deg, #FAD7A1 10%, #E96D71 100%);
     background-size: cover;
     background-position: 50% 50%;
     background-attachment: fixed;
@@ -219,7 +218,7 @@ body {
 	top: 0;
 	left: 0;
 	background: transparent url(../images/dot.gif) repeat fixed;
-    position: absolute;
+	position: absolute;
 	z-index: 0;
 }
 .banner {
@@ -289,10 +288,10 @@ body {
     max-width: 100%;
 }
 #profile-img {
-    margin-left: -100px;
-    width: 200px;
-    height: 200px;
-    top: -115px;
+    margin-left: -125px;
+    width: 250px;
+    height: 250px;
+    top: -140px;
     left: 50%;
     position: absolute;
     border: 7px solid #fff;
@@ -304,8 +303,8 @@ body {
     box-shadow: 0 0 1px rgba(0,0,0,0.25);
 }
 #profile {
-	padding-top: 100px;
-	padding-bottom: 20px;
+	padding-top: 150px;
+	padding-bottom: 40px;
 }
 #profile p {
     /*font-size: 1.2em;*/
@@ -336,7 +335,8 @@ body {
 	bottom: 0;
 }
 .portfolio-items {
-	z-index: 2;
+	position: relative;
+	z-index: 200;
 }
 .card-deck {
 	padding-bottom: 5px;
@@ -450,7 +450,8 @@ body {
 @media (min-width: 576px) {
 	#profile p { font-size: 1.2em; }
 	#portfolio-wrap {
-		padding-top: 70px;
+		padding-top: 100px;
+		padding-bottom: 50px;
 	}
 
 }
