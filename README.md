@@ -2,4 +2,4 @@
 Starting a new portfolio. A single page portfolio.
 
 ### Check It Out
-https://xtianares.github.io/new-portfolio/.
+https://xtianares.github.io/ux-portfolio/.
